@@ -1,0 +1,28 @@
+@mixin adjust {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+@mixin center {
+  margin-left:50%;
+  transform: translateX(-50%);
+}
+
+// breakpoints
+
+@mixin tablet {
+  @media (max-width:1024px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (max-width:600px) {
+    @content;
+  }
+}
+@mixin min-mobile {
+  @media (max-width:400px) {
+    @content;
+  }
+}
