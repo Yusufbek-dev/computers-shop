@@ -431,7 +431,7 @@ nav .hamburger .bar {
 }
 @media (max-width: 1024px) {
   .min-menu {
-    height: 120vh;
+    height: auto;
     width: 40%;
   }
 }

@@ -289,7 +289,7 @@ nav {
     padding-left:4%;
   }
   @include tablet {
-    height: 120vh;
+    height:auto;
     width: 40%;
   }
   @include mobile {
