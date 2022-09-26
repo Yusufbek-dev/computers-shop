@@ -265,11 +265,11 @@ nav {
 .sm-bg {
   position: absolute;
   z-index: 9;
-  top: 0;
-  bottom: 0;
+  // top: 0;
+  // bottom: 0;
   left: 0;
   right: 0;
-  height: auto;
+  height: 300%;
   background-color:rgba(0, 0, 0, 0.751);
   transform: translateX(-100%);
   transition: .1s;
