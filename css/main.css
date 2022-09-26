@@ -407,6 +407,7 @@ nav .hamburger .bar {
   bottom: 0;
   left: 0;
   right: 0;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.751);
   transform: translateX(-100%);
   transition: 0.1s;
